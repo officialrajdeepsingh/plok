@@ -288,6 +288,7 @@ function SearchBox() {
 }
 
 // Throttle scroll events
+import { useEffect, useCallback } from 'react';
 import { throttle } from 'lodash';
 
 function InfiniteScroll() {
